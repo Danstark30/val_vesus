@@ -667,11 +667,11 @@ visibility: visible;
     /*Contexto*/
 
 #i-contexto{
-    
-  top: 20%;
-  left: 12%;
-  right: auto;
-  bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 
  
    
@@ -694,16 +694,17 @@ visibility: visible;
 
 #i-instrucciones{
 
-  top: 20%;
-  left: 12%;
-  right: auto;
-  bottom: auto;
+  margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
 
 }
 
 #ig-img-intru{
-  width: 85%;
-  height: 500px;
+  width: 78%;
+  height: 350px;
 }
 
 #ig-btnsalirtext-dos{
@@ -789,10 +790,11 @@ visibility: visible;
 
 #i-contexto{
     
-  top: 35%;
-  left: 3%;
-  right: auto;
-  bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 
  
    
@@ -814,10 +816,11 @@ visibility: visible;
 
 #i-instrucciones{
 
-   top: 35%;
-   left: 3%;
-   right: auto;
-   bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 
 }
 

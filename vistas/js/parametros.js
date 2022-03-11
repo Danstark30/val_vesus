@@ -309,7 +309,7 @@ loadingScreen.addEventListener( 'transitionend', onTransitionEnd );
 	// Cube
 
 	var loader = new THREE.TextureLoader();
-    var texture1 = loader.load("assets/modelado/EAbi.png");
+    var texture1 = loader.load("assets/modelado/EAbi.PNG");
     var cubeTexture = loader.load ;
 	const owo = new THREE.BoxBufferGeometry( 6, 6, 6, 10, 10 );
 	const owoMaterial = new THREE.MeshPhongMaterial( { color: 0xABABAB , map: texture1} );
