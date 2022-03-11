@@ -712,10 +712,11 @@ a{
 
 #i-contexto{
     
-    top: 20%;
-    left: 12%;
-    right: auto;
-    bottom: auto;
+    margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
  
    
      
@@ -737,11 +738,11 @@ a{
 /*Instrucciones */
 
 #i-instrucciones{
-
-    top: 20%;
-    left: 12%;
-    right: auto;
-    bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
 
 }
 

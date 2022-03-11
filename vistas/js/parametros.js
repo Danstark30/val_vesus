@@ -792,7 +792,7 @@ loadingScreen.addEventListener( 'transitionend', onTransitionEnd );
 
 				var imgSe = document.getElementById("imgSeñal");
 				imgSe.style.visibility = 'visible';
-				imgSe.src="./assets/img/stand_By.png";
+				imgSe.src="./assets/img/standby.PNG";
 
 				var infoc = document.createTextNode( 'Con este botón has salido del modo Stand By del equipo. Esto significa que ya puedes ajustar la potencia de cualquiera de los modos de uso de ESU: Monopolar (corte/coagulación) y bipolar. ' );
 				parrafoc.appendChild(infoc);
@@ -862,7 +862,7 @@ loadingScreen.addEventListener( 'transitionend', onTransitionEnd );
                 parrafoc.appendChild( infoc );
 				var imgSe = document.getElementById("imgSeñal");
 				imgSe.style.visibility = 'visible';
-				imgSe.src="./assets/img/monocut.png";
+				imgSe.src="./assets/img/monocut.PNG";
 
              
                 document.getElementById( 'imgS' ).addEventListener( 'click', BtnSalirTxt( tittext, infoc ) );
@@ -914,7 +914,7 @@ loadingScreen.addEventListener( 'transitionend', onTransitionEnd );
 
 				var imgSe = document.getElementById("imgSeñal");
 				imgSe.style.visibility = 'visible';
-				imgSe.src="./assets/img/bipolar.png";
+				imgSe.src="./assets/img/bipolar.PNG";
 
 				var infoc = document.createTextNode( 'La técnica bipolar se basa en el flujo de electricidad entre dos electrodos en el mismo mango que son equivalentes a lo que sería el electrodo activo y de retorno en el modo monopolar. Por lo tanto, no requiere placa de retorno. Para usar el modo bipolar es necesario conectar el pedal bipolar, pues de esta manera se acciona el electrodo activo, si no se conecta el pedal bipolar, no se generará ningún efecto quirúrgico. En esta forma de electrocirugía, el paciente no hace parte del circuito como en la cirugía monopolar.  Se utiliza principalmente cuando se requiere una hemostasia (detención de hemorragia) precisa para no dañar los tejidos cercanos.' );
 				parrafoc.appendChild(infoc);
