@@ -48,7 +48,7 @@ body{
 #i-container-conf-simulation{
     margin: 0 0 1.5rem  ;
     display: flex;
-    height: 100%;
+    height: 99%;
     position: absolute;
     flex-direction: column-reverse;
     right: 0;
@@ -601,6 +601,10 @@ visibility: visible;
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
 
+  #i-container-conf-simulation{
+    height: 80%;
+  }
+
   #container-info{
  
     background-color: #0F2234;
@@ -609,7 +613,7 @@ visibility: visible;
     width: 70%;
     z-index: 1;
     top: 10%;
-    left: 25%;
+    left: 14%;
     right: 20%;
     bottom: 20%;
     border-radius: 0.8rem;
@@ -651,16 +655,16 @@ visibility: visible;
   
   #info-titulo{
     font-family: 'Nexa Bold';
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 0.5rem;
   
   }
   
   #info-texto{
     text-align: justify;
-    font-size: 1.1rem;
+    font-size: 1rem;
     overflow-y: scroll;  
-     height: 200px;
+     height: 100px;
   }
 
   /*Contexto*/

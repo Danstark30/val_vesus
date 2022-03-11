@@ -399,6 +399,7 @@ footer h5{
     #ig_info_pcontainer{
     
         position: absolute;
+      
         top: 60%;
         margin: 0 10rem;
         display: flex;
@@ -670,12 +671,13 @@ footer h5{
     
     #ig_info_pcontainer{
     
-        position: relative;
-        margin: 0 1rem 0 2rem ;
+        
         display: flex;
         flex-direction: column;
         justify-items: center;
-        
+        position: relative;
+        width: 100%;
+        margin: 0 1rem 0 2rem ;
         text-align: justify;
       
         
@@ -977,18 +979,18 @@ footer h5{
   
     
     #ig_info_pcontainer{
-      
-    width: 100%;
-    position: relative;
-    margin: 0;
-    padding: 0;
+    
     display: flex;
     flex-direction: column-reverse;
     justify-items: center;
     text-align: justify;
-    align-content: stretch;
-    justify-content: space-evenly;
+ 
     align-items: center;
+ 
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
        
         
     }
@@ -996,7 +998,7 @@ footer h5{
     #ig_text_pcontiner{
       
  
-        width: 80%;
+        width: 90%;
         margin: 0 0 0 0;
         padding: 0 0 0 0;
         border-left: 10px solid transparent;
