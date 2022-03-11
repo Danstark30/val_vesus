@@ -536,7 +536,7 @@ const divinstrucciones = document.getElementById('i-instrucciones');
 
 					//optimizar el codigo para no eliminar los sprites
 
-					groupSprites.remove(sprite,sprite2,sprite3);
+					groupSprites.remove(sprite,sprite2,sprite3,sprite4);
 				
 					
 
@@ -605,7 +605,7 @@ const divinstrucciones = document.getElementById('i-instrucciones');
 
 					document.getElementById( 'imgS' ).addEventListener( 'click', BtnSalirTxt( text, info ) );
 
-					groupSprites.remove(sprite,sprite2,sprite3);
+					groupSprites.remove(sprite,sprite2,sprite3,sprite4);
 
 
 				}
@@ -673,7 +673,7 @@ const divinstrucciones = document.getElementById('i-instrucciones');
 
 					document.getElementById( 'imgS' ).addEventListener( 'click', BtnSalirTxt( text, info ) );
 
-					groupSprites.remove(sprite,sprite2,sprite3);
+					groupSprites.remove(sprite,sprite2,sprite3,sprite4);
 
 
 				}
@@ -739,7 +739,7 @@ const divinstrucciones = document.getElementById('i-instrucciones');
 
 					document.getElementById( 'imgS' ).addEventListener( 'click', BtnSalirTxt( text, info ) );
 
-					groupSprites.remove(sprite,sprite2,sprite3);
+					groupSprites.remove(sprite,sprite2,sprite3,sprite4);
 
 
 				}

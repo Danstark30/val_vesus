@@ -1253,7 +1253,7 @@ loadingScreen.addEventListener( 'transitionend', onTransitionEnd );
 
 				var imgSe = document.getElementById("imgSeñal");
 				imgSe.style.visibility = 'visible';
-				imgSe.src="./assets/img/corteblend2.png";
+				imgSe.src="./assets/img/corteblendtres.png";
 
 				var infoc = document.createTextNode( 'Tiene un ciclo de trabajo al 40%. Lo anterior quiere decir que está en “on” un 40% del ciclo mientras que el 60% restante está en off. En el blend 2 se produce más coagulación que corte. ' );
 				parrafoc.appendChild(infoc);
@@ -1275,7 +1275,7 @@ loadingScreen.addEventListener( 'transitionend', onTransitionEnd );
 
 				var imgSe = document.getElementById("imgSeñal");
 				imgSe.style.visibility = 'visible';
-				imgSe.src="./assets/img/corteblend2.png";
+				imgSe.src="./assets/img/corteblendos.png";
 
 				var infoc = document.createTextNode( 'Tiene ciclo de trabajo al 25%. Lo anterior quiere decir que la señal se encuentra encendida un 25% del ciclo y el 75% restante se encuentra apagada. Al contrario que en el blend 1, el blend 3 no se logra cortar mucho pero si se logra una muy buena hemostasia. ' );
 				parrafoc.appendChild(infoc);
