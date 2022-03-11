@@ -259,7 +259,7 @@ app.stage.addChild(SpriteFoto);
 SpriteEquipo.interactive= true;
 SpriteEquipo.buttonMode= true;
 SpriteEquipo.on("pointertap", function(){
-    window.location.href = "https://www.youtube.com/watch?v=EOP-xCzLrIM&list=RDGMEMQ1dJ7wXfLlqCjwV0xfSNbAVMyUTCOZwT2ok&index=46"
+    window.location.href = "https://video.eko.com/v/A67YRE?autoplay=true"
 });
  
 
