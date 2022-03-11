@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./styles/inicio.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-ESU</title>
+</head>
+<body>
+    <div id="cursor"></div>
+    <div id="ig_menu">
+      
+        <div>
+            <a id="ig_logo" href="#">V-ESU</a>
+        </div>
+        <div id="ig_items_menu">
+        <a href="#ig_container1" class="ig_btn_menu">SIMULADOR</a>
+        <a href="#ig_container2" class="ig_btn_menu">SITUACIÓN PROBLEMA</a>
+        <a  href="#ig_container3"class="ig_btn_menu">GUÍAS</a>
+        <a  href="#ig_container3" class="ig_btn_menu">MANUAL DE USUARIO</a>
+        </div>
+    </div>
+  <div id="ig_container1" >
+    <div id="pcontainer"></div>
+
+    <div id="ig_info_pcontainer" class="Action1">
+
+        
+    <div id="ig_text_pcontiner" >
+        <p >¡Bienvenido al simulador virtual en línea de la unidad electroquirúrgica!
+            Este simulador te permitirá explorar todo lo relacionado con este equipo 
+            biomédico: su conexión, sus accesorios y configuración para usarlo. Esta 
+            herramienta interactiva te será útil para conocer y/o afianzar la teoría
+            sobre electrocirugía desde el punto de Ingeniería Biomédica. Da clic en 
+            el botón “empezar”   para iniciar esta aventura.</p>
+    </div>
+    <div id="ig_titulo_pcontainer">
+        <h1>V-ESU</h1>
+        <a href="conexionesESU.html" id="ig_btn_empezar"> EMPEZAR</a>
+    </div>
+</div>
+  </div>
+    
+    <div id="ig_container2" class="Action1">
+        <div id="ig_info_container2">
+            <h2>SITUACIÓN</h2>
+            <h4>PROBLEMA</h4>
+            <p class="Action_parrafos">¡Pon a prueba tus conocimientos! <br>
+                Con la situación problema podrás evaluar lo que sabes de electrocirugía
+                mediante un video interactivo. Acompaña a nuestras protagonistas en una
+                historia donde tú defines el rumbo que toma de acuerdo a tus conocimientos. 
+                </p>
+            <a href="situacionProblema.html" id="ig_btn_empezarsp">EMPEZAR</a>
+           
+        </div>
+        <img class="Action2" src="./assets/img/womenandpc.png" alt=""/>
+        <div id="ig_titles_container">
+            <h2> NUEVAS HISTORIAS </h2>
+        </div>
+        
+    </div>
+
+    <div id="ig_container3" class="Action1">
+        <div class="container3_child">
+            <h2>GUÍAS SITUACIÓN PROBLEMA</h2>
+            <img class="Action2" src="./assets/img/guias.png" alt="" />
+            <p class="Action_parrafos">Descubre las guías de la situación problema, que te ofrecemos, Podrás encontrar 
+                lo necesario para conocer la situación problema más a fondo. Descargala con el
+                 siguiente botón. </p>
+                 <a class="ig_btn_descargas" href="./assets/pdf/guias.pdf" download rel="noopener noreferrer" target="_blank">
+                    Descargar  <img src="./assets/iconos/pdf.svg" alt="" /> 
+                 </a>
+
+        </div>
+
+        <div class="container3_child">
+            <h2>MANUAL DE USUARIO</h2>
+            <img class="Action21" src="./assets/img/manual.png" alt="" />
+            <p class="Action_parrafos"> Conoce todas las instrucciones de V-ESU. Encuentra preguntas frecuentes 
+                sobre esta herramienta de aprendizaje, además de un paso a paso sobre
+                cómo usarla, funciones,requerimientos, entre otros.   </p>
+                <a  class="ig_btn_descargas" href="./assets/pdf/manual.pdf" download rel="noopener noreferrer" target="_blank">
+                  Descargar  <img src="./assets/iconos/pdf.svg" alt="" /> 
+                 </a>
+        </div>
+
+
+    </div>
+
+    <footer>
+        <h5>V-ESU</h5>
+    </footer>
+
+    
+
+
+ 
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "../node_modules/three/build/three.module.js"
+            }
+        }
+    </script>
+   
+
+    </script>
+
+ 
+    <script type="module" src="./js/inicio.js" ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        
+        ScrollReveal({ reset: true });
+        ScrollReveal().reveal('.Action1', { delay: 500 });
+        ScrollReveal().reveal('.Action2', { delay: 900 });
+        ScrollReveal().reveal('.Action21', { delay: 1100 });
+        
+    </script>
+    
+</body>
+</html>

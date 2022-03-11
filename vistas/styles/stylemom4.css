@@ -1,0 +1,455 @@
+@font-face {
+    font-family: "Nexa";
+    font-weight: lighter;
+    src: url("./fonts/Nexa\ Light.otf") format("opentype");
+  }
+  
+  body{
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto Condensed', sans-serif;
+      overflow: hidden;
+  
+  }
+  
+  
+  #menu-cortes{
+      display: flex;
+      flex-direction: column;
+      margin: 0 0 0 0%;
+    
+   
+      padding: 0.1rem;
+      position: absolute;
+   
+  
+  }
+  
+  .btnCorte{
+      position: relative;
+      padding: 0.4rem;
+      margin: 0.4rem;
+  }
+  
+  
+  #c{
+      z-index: 1;
+      position: absolute; 
+      display: flex;
+      left: 35%;
+      top: 10%;
+     
+   
+     
+  }
+  
+  #imgS{
+  
+      display: flex;
+      justify-content: right;
+      text-align: right;
+      width: 3%;
+      height: 3%;
+      margin-left: 48rem;
+      margin-bottom: 1rem;
+  
+      
+  }
+  
+  #imgS:hover{
+      width: 4%;
+      height: 4%;
+  }
+  /*PANTALLA DE CARGA*/
+
+#screen-complete{
+  background-color: #5298CA;
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+#screen-complete.fade-out {
+  opacity: 0;
+}
+
+#loading-screen{
+ 
+    display: flex;
+    position: absolute;
+  
+    top: 40%;
+     left: 48%;
+    
+
+}
+
+#loading-screen.fade-out {
+  opacity: 0;
+}
+
+
+#loader{
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  animation: loader 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: rgb(255, 255, 255) transparent transparent transparent;
+
+ 
+
+}
+
+.loader div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .loader div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .loader div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes loader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+    /* BOTON DE VOLVER PARA ESCENAS DE PROFUNDIDA DENTRO DE LOS CORTES*/
+  
+    #btnBack{
+      background: none;
+      border: 0;
+      display: flex;
+      position: absolute;
+      top: 1%;
+    }
+  
+    /**  TOOLLTIP    **/
+  
+    .tooltips {
+      position: relative;
+      display: inline-block;
+      padding: 0.4rem;
+      margin: 0.4rem;
+     
+    }
+    
+    .tooltips .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #0F2234;
+      color: #8DD5EE;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+      top: 1rem;
+      left: 6rem;
+    }
+    
+    .tooltips:hover .tooltiptext{
+      visibility: visible;
+    }
+  
+    
+    #ig-context-container-er{
+      background-color: rgb(15,34,52);
+      color: white;
+      position: absolute;
+      z-index: 2;
+      top: 25%;
+      left: 45%;
+      right: 10%;
+  
+    }
+  
+    #ig-info-er{
+      font-family: 'Nexa';
+      text-align: right;
+      text-align: justify;
+      margin: 2rem ;
+    }
+
+    /*****  TOOLLTIP IZQ    ***/
+
+  #i-btnInstru{
+    border: none;
+    background-color: transparent !important;
+}
+
+#i-btnCont{
+    border: none;
+    background-color: transparent !important;
+}
+
+
+.tooltipizq {
+    position: relative;
+    display: inline-block;
+   
+}
+
+.tooltipizq .tooltiptextizq {
+  font-family: 'Nexa';
+  font-size: 1rem;
+  visibility: hidden;
+  width: 120px;
+  background-color: #0F2234;
+  color: #8DD5EE;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 1rem;
+  right: 7rem;
+}
+
+.tooltipizq:hover .tooltiptextizq{
+  visibility: visible;
+}
+
+
+     /*Instrucciones */
+ #i-container-conf-simulation{
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    margin: 0 0 1.5rem  ;
+    top: 77%;
+    left: 94%;
+   
+    z-index: 2;
+ 
+ 
+   
+ }
+ 
+ #i-container-conf-simulation img{
+   padding: 0 1rem 1rem 0;
+ }
+ 
+ 
+  #i-instrucciones{
+   display: flex;
+   position: absolute;
+   z-index: 1;
+   width: 100%;
+   height: auto;
+  top: 20%;
+  left: 28%;
+  right: auto;
+  bottom: auto;
+ 
+ 
+   
+ }
+ 
+ /*Contexto */
+ #i-contexto{
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+ top: 20%;
+ left: 28%;
+ right: auto;
+ bottom: auto;
+ 
+ 
+  
+ }
+ 
+ .btnderinferior{
+  border: none;
+  background-color: transparent !important;
+ }
+ 
+ /*   Btn salir de interfaces */
+ 
+ #ig-btnsalirtext{
+   display: flex;
+   position: absolute;
+   top: 7%;
+   left: 42%;
+ }
+ 
+ #ig-btnsalirtext:hover{
+ 
+   height: 5%;
+ }
+ 
+ #ig-btnsalirtext-dos{
+   display: flex;
+   position: absolute;
+   top: 7%;
+   left: 42%;
+ }
+ 
+ #ig-btnsalirtext-dos:hover{
+ 
+   height: 5%;
+ }
+
+ /**********************************************         RESPONSIVE          *********************** */
+/**/
+
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+}
+@media only screen and (min-width: 1280px) and (max-width: 1600px) {
+
+   
+}
+
+@media only screen and (min-width:768px) and (max-width: 1280px) {
+
+    /*Contexto*/
+
+#i-contexto{
+    
+  top: 20%;
+  left: 12%;
+  right: auto;
+  bottom: auto;
+
+ 
+   
+}
+
+#ig-img-context{
+   width: 85%;
+   height: 500px;
+}
+
+#ig-btnsalirtext{
+
+   left: 72%;
+}
+
+/*BOTONES CONTEXTO E INTRUCCIONES*/
+
+#i-container-conf-simulation{
+  display: flex;
+  flex-direction: column-reverse;
+  position: absolute;
+  margin: 0 0 1.5rem  ;
+  top: 77%;
+  left: 88%;
+ 
+  z-index: 2;
+
+}
+
+
+
+
+
+/*Instrucciones */
+
+#i-instrucciones{
+
+  top: 20%;
+  left: 12%;
+  right: auto;
+  bottom: auto;
+
+}
+
+#ig-img-intru{
+  width: 85%;
+  height: 500px;
+}
+
+#ig-btnsalirtext-dos{
+
+  left: 72%;
+}
+
+    
+}
+
+/*Menos de 19 pulgadas*/
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    
+
+/*Contexto*/
+
+#i-contexto{
+    
+  top: 35%;
+  left: 3%;
+  right: auto;
+  bottom: auto;
+
+ 
+   
+}
+/*BOTONES CONTEXTO E INTRUCCIONES*/
+
+#i-container-conf-simulation{
+  display: flex;
+  flex-direction: column-reverse;
+  position: absolute;
+  margin: 0 0 1.5rem  ;
+  top: 77%;
+  left: 80%;
+ 
+  z-index: 2;
+
+}
+
+#ig-img-context{
+   width: 95%;
+   height: 250px;
+}
+
+#ig-btnsalirtext{
+   width: 3%;
+   left: 72%;
+}
+
+
+
+/*Instrucciones */
+
+#i-instrucciones{
+
+   top: 35%;
+   left: 3%;
+   right: auto;
+   bottom: auto;
+
+}
+
+#ig-img-intru{
+   width: 95%;
+   height: 250px;
+}
+
+#ig-btnsalirtext-dos{
+   width: 3%;
+   left: 72%;
+}
+
+   
+}

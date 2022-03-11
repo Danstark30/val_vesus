@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/stylemom3.css">
+    <title>Cut clipping</title>
+</head>
+<body>
+
+    <div id="screen-complete">
+        <section id="loading-screen">
+            <div id="loader"></div>
+   </section>
+    </div>
+     
+    <div id="container">
+
+        <div id="menu-cortes">
+        <a id="sceneCutPure"  class="tooltips" href="#"> <img src="./assets/iconos/btnmono.png" alt="Icons"/>  <span class="tooltiptext">Corte Monopolar</span> </a>
+        <a id="sceneCutBi"  class="tooltips" href="corteBipolar.html"> <img src="./assets/iconos/btnbi.png" alt="Icons"/>  <span class="tooltiptext">Corte Bipolar</span> </a>
+        <a id="sceneBlend2"  class="tooltips" href="parametrosESU.html"> <img src="./assets/iconos/btnpa.png" alt="Icons"/> <span class="tooltiptext">Esu: Parametros</span>  </a>
+        <a id="sceneProf"  class="tooltips"  class="tooltips"  href="profundidadCorte.html"> <img src="./assets/iconos/btnProc.png" alt="Icons"/> <span class="tooltiptext">Profundidad Corte</span> </a>
+        <a id="sceneBlend3" class="btnCorte" href="inicio.html"> <img src="./assets/iconos/btnback.png" alt="Icons"/>   </a>
+    </div>
+    </div>
+
+    <div id="i-container-conf-simulation">
+        <button id="i-btnInstru" class="tooltipizq"> <span class="tooltiptextizq">Instrucciones</span>  <img src="./assets/iconos/btnayuda.png" alt="Icons"/>  </button> 
+        <button id="i-btnCont" class="tooltipizq">  <span class="tooltiptextizq">Contexto</span>  <img class="" src="./assets/iconos/btncontext.png" alt="Icons" />  </button> 
+      </div>
+
+ 
+        <div id="c">
+        <img id="imgS" src='./assets/iconos/salir.png' alt="Imagen de boton para salir del texto" style="visibility: hidden"/>
+        </div>
+
+
+        <div id="ig-context-container-er" style="visibility: hidden">
+            <div id="ig-info-er">
+                <h1>Posición electrodo de retorno</h1>
+                <p>Como se puede observar, el electrodo de retorno está posicionado en la pierna derecha, lugar idóneo para la apendicectomía. Recuerda que para el posicionamiento correcto del electrodo de retorno, se debe tener en cuenta: el área de aplicación debe tener buena musculatura y vascularización; evitar prominencias óseas, implantes metálicos y regiones adiposas del cuerpo; el área debe estar limpia (no se debe limpiar con alcohol ya que puede provocar mayor resistencia en la piel) y no debe tener vello ya que este se considera aislante. Además, la placa debe estar de 10 a 15 centímetros de distancia del lugar de incisión. 
+                </p>
+            </div>
+            
+        </div>
+
+        <div  id="i-contexto" style="visibility: hidden">
+            <img  id="ig-btnsalirtext" src="./assets/iconos/btnsalir.png" alt="boton de salir del contexto"/>  
+            <img id="ig-img-context" src="./assets/interfaces/contmomono3.png" alt="contexto del momento 1"/>
+        </div>
+    
+        <div id="i-instrucciones" style="visibility: hidden" >
+            <img id="ig-btnsalirtext-dos" src="./assets/iconos/btnsalir.png" alt="boton de salir de las instrucciones"/> 
+            <img id="ig-img-intru" src="./assets/interfaces/intrumomono3.png" alt="instrucciones momento 1"/>
+        </div>
+
+
+        <button id="btnBack" class="btnCorte"> <img src="./assets/iconos/btnback.png" alt="Icons"/>  </button>
+        
+        <script type="importmap">
+            {
+                "imports": {
+                    "three": "../node_modules/three/build/three.module.js"
+                }
+            }
+        </script>
+
+    <script type="module" src="js/monopolar.js"></script>
+    
+</body>
+</html>

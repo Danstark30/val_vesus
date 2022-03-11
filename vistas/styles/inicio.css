@@ -1,0 +1,1184 @@
+@font-face {
+    font-family: "Nexa";
+    font-weight: lighter;
+    src: url("./fonts/Nexa\ Light.otf") format("opentype");
+}
+
+
+body{
+    
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+ 
+}
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+p{
+    font-family: "Nexa";
+    font-size: 1.3rem;
+}
+
+h1{
+    font-family: "Nexa";
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 7px;
+}
+h2{
+    font-family: "Nexa";
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+    letter-spacing: 7px;
+}
+
+h4{
+    font-family: "Nexa";
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    letter-spacing: 7px;
+}
+
+a{
+    text-decoration: none; 
+}
+
+
+
+#ig_menu{
+
+  display: flex;
+  position: absolute;
+  min-width: 100%;
+  margin: 1.2rem;
+  z-index: 1;
+  font-family: "Nexa";
+  white-space: nowrap;
+
+}
+
+
+#ig_logo{
+    color: white;
+    margin: 0.5rem 2rem 0 1rem;
+    padding: 1rem auto  0 1rem; 
+    letter-spacing: 7px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  
+}
+
+#ig_items_menu{
+  
+   margin: 0 0 0 36% ;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   
+  
+}
+
+.ig_btn_menu{
+  
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 1rem 1rem 0; 
+    margin: 0 1rem 0 0 ; 
+    letter-spacing: 7px;
+ 
+}
+
+
+
+
+/* PRIMER CONTAINER */
+#ig_container1{
+    position: relative;
+
+}
+
+
+
+#ig_info_pcontainer{
+
+    position: absolute;
+    top: 75%;
+    margin: 0 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+   
+    
+}
+
+#ig_text_pcontiner{
+    width: 50%;
+    padding: 1rem;
+    margin: 0 0 0 9rem;
+    border-left: 10px solid transparent;
+    border-image: url(../assets/texturas/Grupo\ 12.png) 8 round;
+    border-radius: 1rem 0 0 1rem   ;
+}
+
+#ig_text_pcontiner p{
+    color: white;
+}
+
+#ig_titulo_pcontainer{
+    
+    margin: 0 0 0 9rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#ig_btn_empezar{
+    color: white;
+    font-family: "Nexa";
+    border: 2px solid white;
+    border-radius: 2rem;
+    padding: 0.5rem 4rem ;
+    letter-spacing: 7px;
+    text-decoration: none;
+    background-position: right;
+}
+
+#ig_btn_empezar:hover{
+  
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgba(82,152,202,1) 50%, rgba(15,34,52,1) 50%) left;
+    background-size: 200%;  
+    transition: .7s ease-out;
+    border: 0;
+ 
+ 
+}
+
+
+
+/* CONTAINER 2 */
+
+#ig_container2{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4rem 9rem 4rem 9rem;
+    padding: 1rem;
+
+}
+
+#ig_info_container2{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.Action_parrafos{
+    text-align: justify;
+}
+
+
+#ig_btn_empezarsp{
+
+    color: rgb(0, 0, 0);
+    font-family: "Nexa";
+    border: 2px solid ;
+    border-radius: 2rem;
+    padding: 0.5rem 4em ;
+    margin: 1rem 16rem 0 0;
+    text-align: center;
+    letter-spacing: 7px;
+    text-decoration: none;
+    background-position: right;
+
+ }
+
+ #ig_btn_empezarsp:hover{
+  
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgba(82,152,202,1) 50%, rgba(15,34,52,1) 50%) left;
+    background-size: 200%;  
+    transition: .7s ease-out;
+    border: 0;
+ 
+ 
+}
+
+
+ #ig_titles_container{
+  
+    padding: 20rem 0 0 0 ;
+     
+}
+
+#ig_titles_container h2{
+    font-size: 3.5rem;
+    letter-spacing: 20px;
+    -webkit-transform: rotate(-90deg); 
+   -moz-transform: rotate(-90deg); 
+   -ms-transform: rotate(-90deg); 
+   -o-transform: rotate(-90deg); 
+   transform: rotate(-90deg); 
+  
+  
+}
+
+/*CONTAINER 3*/
+
+#ig_container3{
+    display: flex;
+    flex-direction: row;
+    margin: 4rem 9rem 4rem 9rem;
+
+}
+
+
+.container3_child{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    text-align: justify;
+    width: 50%;
+    height: auto;
+    padding: 1rem;
+    margin: 2rem 0;
+
+}
+
+.container3_child h2{
+    
+    text-align: center;
+  
+
+}
+
+.container3_child img{
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+   
+
+}
+
+.ig_btn_descargas{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 4rem;
+    margin: 0 15rem;
+   /* vertical-align: middle;*/
+    
+    
+    color: rgb(0, 0, 0);
+    font-family: "Nexa";
+    border: 2px solid ;
+    border-radius: 2rem;
+   
+    letter-spacing: 7px;
+    text-decoration: none;
+    background-position: right;
+    
+}
+
+
+ .ig_btn_descargas:hover{
+  
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgba(82,152,202,1) 50%, rgba(15,34,52,1) 50%) left;
+    background-size: 200%;  
+    transition: .7s ease-out;
+    border: 0;
+    fill: white;
+ 
+}
+
+.ig_btn_descargas:hover img{
+   
+  
+    filter: invert(100%) ;
+ 
+}
+
+
+
+
+.ig_btn_descargas img{
+  
+    width: 30px;
+    height: 30px;
+    margin-left: 0.5rem;
+    
+   
+}
+
+
+
+/* FOOTER */
+
+footer{
+    background: rgb(82,152,202);
+    background: linear-gradient(90deg, rgba(82,152,202,1) 0%, rgba(15,34,52,1) 100%, rgba(15,34,52,1) 100%);
+    width: 100%;
+    height: auto;
+    
+    padding: 1rem;
+    text-align: center;
+}
+
+footer h5{
+    margin: 2rem;
+    color: white;
+    font-family: "Nexa";
+    font-size: 2rem;
+    letter-spacing: 7px;
+}
+
+/**********************************************         RESPONSIVE          *********************** */
+/**/
+
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+}
+@media only screen and (min-width: 1280px) and (max-width: 1600px) {
+
+   
+    
+    
+  
+    
+    
+    #ig_logo{
+        color: white;
+        margin: 0.5rem 2rem 0 1rem;
+        padding: 1rem auto  0 1rem; 
+        letter-spacing: 7px;
+        font-size: 1.5rem;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+      
+    }
+    
+    #ig_items_menu{
+      visibility: hidden;
+    
+    }
+    
+    .ig_btn_menu{
+      
+        color: white;
+        font-size: 1rem;
+        padding: 1rem 1rem 1rem 0; 
+        margin: 0 1rem 0 0 ; 
+        letter-spacing: 7px;
+     
+    }
+    
+    
+    /* PRIMER CONTAINER */
+    #ig_container1{
+        position: relative;
+    
+    }
+    
+  
+    
+    #ig_info_pcontainer{
+    
+        position: absolute;
+        top: 60%;
+        margin: 0 10rem;
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+      
+       
+        
+    }
+    
+    #ig_text_pcontiner{
+        
+        padding: 1rem;
+        margin: 0 0 0 0;
+        border-left: 10px solid transparent;
+        border-image: url(../assets/texturas/Grupo\ 12.png) 8 round;
+        border-radius: 1rem 0 0 1rem   ;
+    }
+    
+    #ig_text_pcontiner p{
+        text-align: justify;
+        color: white;
+        
+        
+    }
+   
+    
+    
+    
+    /* CONTAINER 2 */
+    
+    #ig_container2{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 4rem 9rem 4rem 9rem;
+        padding: 1rem;
+        
+     
+    
+    }
+
+    #ig_container2 img{
+        
+       width: 45%;
+       height: auto;
+        
+     
+    
+    }
+
+
+ 
+    
+    #ig_info_container2{
+    
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        width: 50%;
+        
+    }
+
+    
+    
+    
+    
+    #ig_btn_empezarsp{
+    
+        color: rgb(0, 0, 0);
+        font-family: "Nexa";
+        border: 2px solid ;
+        border-radius: 2rem;
+        padding: 0.5rem 4em ;
+        margin: 1rem 2rem 0 0;
+        text-align: center;
+        letter-spacing: 7px;
+    
+     }
+    
+    
+     #ig_titles_container{
+    
+        padding: 24rem 0 0 0;
+        width: 20%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center
+         
+    }
+
+  
+    
+    #ig_titles_container h2{
+        font-size: 3.5rem;
+        letter-spacing: 20px;
+        -webkit-transform: rotate(-90deg); 
+       -moz-transform: rotate(-90deg); 
+       -ms-transform: rotate(-90deg); 
+       -o-transform: rotate(-90deg); 
+       transform: rotate(-90deg); 
+      
+      
+    }
+    
+    /*CONTAINER 3*/
+    
+    #ig_container3{
+        display: flex;
+        flex-direction: row;
+        margin: 4rem 9rem 4rem 9rem;
+    
+    }
+    
+    
+    .container3_child{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        text-align: justify;
+        width: 50%;
+        height: auto;
+        padding: 1rem;
+        margin: 2rem 0;
+    
+    }
+    
+    .container3_child h2{
+        
+        text-align: center;
+      
+    
+    }
+    
+    .container3_child img{
+        width: 60%;
+        height: 85%;
+        margin: 0 auto;
+       
+    
+    }
+    
+    .ig_btn_descargas{
+        
+    
+        padding: 0.5rem 4rem;
+        margin: 0 5rem;
+       /* vertical-align: middle;*/
+        
+        
+        color: rgb(0, 0, 0);
+        font-family: "Nexa";
+        border: 2px solid ;
+        border-radius: 2rem;
+       
+        letter-spacing: 7px;
+        text-decoration: none;
+        
+    }
+    
+    
+    
+    .ig_btn_descargas img{
+      
+        width: 30px;
+        height: 30px;
+        margin-left: 0.5rem;
+        
+       
+       
+    }
+    
+    /* FOOTER */
+    
+    footer{
+        background: rgb(82,152,202);
+        background: linear-gradient(90deg, rgba(82,152,202,1) 0%, rgba(15,34,52,1) 100%, rgba(15,34,52,1) 100%);
+        width: 100%;
+        height: auto;
+        
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    footer h5{
+        margin: 2rem;
+        color: white;
+        font-family: "Nexa";
+        font-size: 2rem;
+        letter-spacing: 7px;
+    }
+	
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 1280px) {
+
+    p{
+        font-family: "Nexa";
+        font-size: 1.1rem;
+    }
+    
+    h1{
+        font-family: "Nexa";
+        color: rgb(0, 0, 0);
+        font-size: 3rem;
+        letter-spacing: 7px;
+    }
+    
+    
+    
+    #ig_menu{
+    
+      display: flex;
+      position: absolute;
+      min-width: 100%;
+      margin: 1.2rem;
+      z-index: 1;
+      font-family: "Nexa";
+      white-space: nowrap;
+
+    
+    }
+    
+
+    
+    #ig_logo{
+        color: white;
+        margin: 0.5rem 2rem 0 1rem;
+        padding: 1rem auto  0 1rem; 
+        letter-spacing: 7px;
+        font-size: 1.5rem;
+        
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+      
+    
+    }
+
+   
+    #ig_items_menu{
+      
+     visibility: hidden;
+    
+    }
+    
+    .ig_btn_menu{
+        
+      
+        color: white;
+        font-size: 1rem;
+        padding: 1rem 1rem 1rem 0; 
+        margin: 0 1rem 0 0 ; 
+        letter-spacing: 7px;
+      
+     
+     
+    }
+    
+    
+    /* PRIMER CONTAINER */
+    #ig_container1{
+            position: relative;
+    }
+    
+    
+    #ig_info_pcontainer{
+    
+        position: relative;
+        margin: 0 1rem 0 2rem ;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        
+        text-align: justify;
+      
+        
+    }
+    
+    #ig_text_pcontiner{
+    
+        width: 80%;
+        margin: 2rem 0 2rem 4rem;
+        padding: 0 0.5rem;
+        border-left: 5px solid transparent;
+        border-image: url(../assets/texturas/2.png) 8 round;
+        border-radius: 1rem 0 0 1rem ;
+    }
+    
+    #ig_text_pcontiner p{
+        color: rgb(0, 0, 0);
+    }
+    
+    #ig_titulo_pcontainer{
+       
+        margin: 0 auto;
+        padding: 1rem 0 ;
+        display: flex;
+        flex-direction: column;
+        
+        text-decoration: none;
+    
+    }
+    
+    #ig_btn_empezar{
+        color: rgb(0, 0, 0);
+        font-family: "Nexa";
+        border: 2px solid ;
+        border-radius: 2rem;
+        padding: 0.5rem 4rem ;
+       
+        letter-spacing: 7px;
+    }
+    
+    
+    
+    /* CONTAINER 2 */
+    
+    #ig_container2{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin:0 1rem 0 2rem;
+        padding: 1rem;
+    
+    }
+    
+    #ig_info_container2{
+        
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+      
+
+      
+        
+        
+        
+    }
+
+    #ig_info_container2 p{
+        margin: 1rem 0 2rem 4rem;
+        padding: 0 0.5rem;
+        border-left: 5px solid transparent;
+        border-image: url(../assets/texturas/2.png) 8 round;
+        border-radius: 1rem 0 0 1rem ;
+    }
+
+  
+
+
+    #ig_info_container2 h2{
+       text-align: center;
+       margin: 2rem  0 0 0;
+        
+    }
+    #ig_info_container2 h4{
+        text-align: center;
+        margin: 1rem  0  2rem 0;
+     }
+
+     #ig_btn_empezarsp{
+
+        color: rgb(0, 0, 0);
+        font-family: "Nexa";
+        border: 2px solid ;
+        border-radius: 2rem;
+        padding: 0.5rem 4em ;
+        margin:  0 auto;
+        text-align: center;
+        letter-spacing: 7px;
+
+     }
+
+    
+    
+
+
+    #ig_titles_container{
+      
+        text-align: center;
+        margin: 1rem 0;
+        padding: 0;
+     
+ }
+ 
+ #ig_titles_container h2{
+     font-size: 2.5rem;
+     letter-spacing: 20px;
+     -webkit-transform: none; 
+    -moz-transform: none; 
+    -ms-transform:none; 
+    -o-transform: none; 
+    transform: none; 
+   
+   
+ }
+ 
+ /*CONTAINER 3*/
+ 
+ #ig_container3{
+     display: flex;
+     flex-direction: column;
+     margin: 0 auto;
+      margin:0 5.2rem 0 2rem;
+     padding: 1rem;
+
+ 
+ }
+ 
+ 
+ .container3_child{
+    
+     width: 100%;
+     height: auto;
+     padding: 1rem;
+     margin: 2rem 0;
+ 
+ }
+ 
+ .container3_child img{
+     width: 70%;
+     height: 90%;
+     margin: 0 auto;
+ 
+ }
+
+ .container3_child p{
+ margin: 1rem 0 2rem 4rem;
+ padding: 0 0.5rem;
+ border-left: 5px solid transparent;
+ border-image: url(../assets/texturas/2.png) 8 round;
+ border-radius: 1rem 0 0 1rem ;
+
+}
+
+ 
+ 
+ .ig_btn_descargas{
+     
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0.5rem 4em ;
+     margin:  0 auto;
+    /* vertical-align: middle;*/
+     
+     
+     color: rgb(0, 0, 0);
+     font-family: "Nexa";
+     border: 2px solid ;
+     border-radius: 2rem;
+    
+     letter-spacing: 7px;
+     text-decoration: none;
+     
+ }
+ 
+ 
+ 
+ .ig_btn_descargas img{
+   
+     width: 30px;
+     height: 30px;
+     margin-left: 0.5rem;
+     
+    
+    
+ }
+ 
+ /* FOOTER */
+ 
+ footer{
+     background: rgb(82,152,202);
+     background: linear-gradient(90deg, rgba(82,152,202,1) 0%, rgba(15,34,52,1) 100%, rgba(15,34,52,1) 100%);
+     width: 100%;
+     height: auto;
+     
+     padding: 1rem;
+     text-align: center;
+ }
+ 
+ footer h5{
+     margin: 2rem;
+     color: white;
+     font-family: "Nexa";
+     font-size: 2rem;
+     letter-spacing: 7px;
+ }
+
+    
+	
+}
+
+/*Menos de 19 pulgadas*/
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+
+    p{
+        font-family: "Nexa";
+        font-size: 1.1rem;
+    }
+    
+    h1{
+        font-family: "Nexa";
+        color: rgb(0, 0, 0);
+        font-size: 3rem;
+        letter-spacing: 7px;
+    }
+    
+    
+    
+    #ig_menu{
+    
+      display: flex;
+      position: absolute;
+      min-width: 100%;
+      margin: 1.2rem;
+      z-index: 1;
+      font-family: "Nexa";
+      white-space: nowrap;
+    
+      
+    
+    
+    }
+    
+    
+    
+    
+    
+    #ig_logo{
+        color: white;
+        margin: 0.5rem 2rem 0 1rem;
+        padding: 1rem auto  0 1rem; 
+        letter-spacing: 7px;
+        font-size: 1.5rem;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+      
+    
+    }
+    
+    #ig_items_menu{
+      
+     visibility: hidden;
+    
+    }
+    
+    .ig_btn_menu{
+        
+   
+        color: white;
+        font-size: 1rem;
+        padding: 1rem 1rem 1rem 0; 
+        margin: 0 1rem 0 0 ; 
+        letter-spacing: 7px;
+  
+    }
+    
+    
+    /* PRIMER CONTAINER */
+    #ig_container1{
+      
+        position: relative;
+    
+    }
+    
+  
+    
+    #ig_info_pcontainer{
+      
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-items: center;
+    text-align: justify;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+       
+        
+    }
+    
+    #ig_text_pcontiner{
+      
+ 
+        width: 80%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        border-left: 10px solid transparent;
+        border-image: url(../assets/texturas/Grupo\ 12.png) 8 round;
+        border-radius: 1rem 0 0 1rem ;
+    }
+    
+    #ig_text_pcontiner p{
+        color: rgb(0, 0, 0);
+       
+    }
+    
+    #ig_titulo_pcontainer{
+        width: 85%;
+        margin: 0 ;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    #ig_btn_empezar{
+        color: rgb(0, 0, 0);
+        font-family: "Nexa";
+        border: 2px solid ;
+        border-radius: 2rem;
+        padding: 0.5rem 3.5rem ;
+        letter-spacing: 7px;
+    }
+    
+    
+    
+    /* CONTAINER 2 */
+    
+    #ig_container2{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 85%;
+        margin:0 0rem 0 1rem;
+        padding: 1rem;
+    
+    }
+
+    #ig_container2 img{
+        margin: 1.2rem 0 ;
+        padding:  0.5rem 0;        
+     }
+    
+    #ig_info_container2{
+        
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        
+    }
+
+   
+
+    #ig_info_container2 h2{
+       text-align: center;
+       margin: 1rem  0 0 0;
+  
+        
+    }
+    #ig_info_container2 h4{
+        text-align: center;
+        margin: 1rem  0 1.5rem 0;
+     }
+
+     #ig_btn_empezarsp{
+
+        color: rgb(0, 0, 0);
+        font-family: "Nexa";
+        border: 2px solid ;
+        border-radius: 2rem;
+        padding: 0.5rem 4rem ;
+        margin:  0 auto;
+        text-align: center;
+        letter-spacing: 7px;
+
+     }
+
+     
+ #ig_titles_container{
+
+       text-align: center;
+       margin: 1rem 0;
+       padding: 0;
+    
+}
+
+#ig_titles_container h2{
+    font-size: 2.5rem;
+    letter-spacing: 20px;
+    -webkit-transform: none; 
+   -moz-transform: none; 
+   -ms-transform:none; 
+   -o-transform: none; 
+   transform: none; 
+  
+  
+}
+
+/*CONTAINER 3*/
+
+#ig_container3{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+
+.container3_child{
+   
+    width: 85%;
+    height: auto;
+    padding: 1rem;
+    margin: 2rem 0;
+
+}
+
+.container3_child img{
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+
+}
+
+.ig_btn_descargas{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 4rem;
+    margin: 0 5rem;
+   /* vertical-align: middle;*/
+    
+    
+    color: rgb(0, 0, 0);
+    font-family: "Nexa";
+    border: 2px solid ;
+    border-radius: 2rem;
+   
+    letter-spacing: 7px;
+    text-decoration: none;
+    
+}
+
+
+
+.ig_btn_descargas img{
+  
+    width: 30px;
+    height: 30px;
+    margin-left: 0.5rem;
+    
+   
+   
+}
+
+/* FOOTER */
+
+footer{
+    background: rgb(82,152,202);
+    background: linear-gradient(90deg, rgba(82,152,202,1) 0%, rgba(15,34,52,1) 100%, rgba(15,34,52,1) 100%);
+    width: 100%;
+    height: auto;
+    
+    padding: 1rem;
+    text-align: center;
+}
+
+footer h5{
+    margin: 2rem;
+    color: white;
+    font-family: "Nexa";
+    font-size: 2rem;
+    letter-spacing: 7px;
+}
+}

@@ -1,0 +1,79 @@
+<html lang="es">
+<head>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="./styles/stylemom2.css">
+    
+    <title>Proyecto prueba</title>
+  
+</head>
+<body>
+
+    <div id="screen-complete">
+        <section id="loading-screen">
+            <div id="loader"></div>
+   </section>
+    </div>
+    
+    <div id="i-container-menu-simulation">
+
+        <div id="i-container-menu-simulation-opcions"> 
+            <a href="./esu.html" class="tooltip"> <img src="./assets/iconos/btnpa.png" alt="Icons"/>   <span class="tooltiptext">ESU: Parametros</span> </a>
+            <a href="conexionesESU.html" class="tooltip">  <img src="./assets/iconos/btncon.png" alt="Icons"/> <span class="tooltiptext">Conexiones ESU</span>  </a>
+            <a id="btnomocut" href="corteMonopolar.html" class="tooltip" style="visibility: hidden" > <img src="./assets/iconos/btnmono.png" alt="Icons" />   <span class="tooltiptext">Corte Monopolar</span> </a>
+            <a id="btbico" href="corteBipolar.html" class="tooltip" style="visibility: hidden"> <img src="./assets/iconos/btnbi.png" alt="Icons"/>   <span class="tooltiptext" >Corte bipolar</span> </a>
+          
+        </div>    
+       
+    </div>   
+
+    <div id="i-container-conf-simulation">
+      <button id="i-btnInstru" class="tooltipizq"> <span class="tooltiptextizq">Instrucciones</span> <img src="./assets/iconos/btnayuda.png" alt="Icons"/>  </button> 
+      <button id="i-btnCont" class="tooltipizq"> <span class="tooltiptextizq">Contexto</span>  <img class="" src="./assets/iconos/btncontext.png" alt="Icons" />  </button> 
+    </div>
+    
+    
+    <div id="container">   </div>
+
+    <div id="container-info" style="visibility: hidden">
+        <div id="i-eleminfo">
+              <img id="imgSeñal" src='' alt=""  style="visibility: hidden" />
+              <div id="i-eleminfodos">
+                <img id="imgS" src='./assets/iconos/salir.png' alt="Imagen de boton para salir del texto"  style="visibility: hidden"/>
+                <div id="info-titulo" style="visibility: hidden" ></div>
+                <div id="info-texto" style="visibility: hidden"></div>
+            </div>
+             </div>
+       
+        </div>
+
+    <div  id="i-contexto" style="visibility: hidden">
+        <img  id="ig-btnsalirtext" src="./assets/iconos/btnsalir.png" alt="boton de salir del contexto"/>    
+        <img id="ig-img-context" src="./assets/interfaces/contmom2.png" alt=""/>
+    </div>
+
+    <div id="i-instrucciones" style="visibility: hidden" >
+        <img id="ig-btnsalirtext-dos" src="./assets/iconos/btnsalir.png" alt="boton de salir de las instrucciones"/>   
+        <img id="ig-img-intru" src="./assets/interfaces/intrumom2.png" alt="instrucciones momento1"/>
+    </div>
+
+    
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "../node_modules/three/build/three.module.js"
+            }
+        }
+    </script>
+
+    <script type="module" src="js/parametros.js" charset="utf-8"></script>
+    <script src='../node_modules/three/build/three.js'></script>
+    <script src="../node_modules/cannon-es/dist/cannon-es.js" charset="utf-8"></script>
+    <script src="../bibliotecas/threex.dynamictexture-master/threex.dynamictexture.js"></script>
+ 
+    
+
+  
+</body>
+</html>
