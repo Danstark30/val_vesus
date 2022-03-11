@@ -809,6 +809,7 @@ function BtnSalirTxt( text, info ) {
 			groupSprites.add(sprite);
 			groupSprites.add(sprite2);
 			groupSprites.add(sprite3);
+			groupSprites.add(sprite4);
 			
 			
 

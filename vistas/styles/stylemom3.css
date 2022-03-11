@@ -314,7 +314,6 @@ bottom: auto;
 }
 @media only screen and (min-width: 1280px) and (max-width: 1600px) {
 
-   
 }
 
 @media only screen and (min-width:768px) and (max-width: 1280px) {
@@ -349,7 +348,7 @@ bottom: auto;
   flex-direction: column-reverse;
   position: absolute;
   margin: 0 0 1.5rem  ;
-  top: 77%;
+  top: 64%;
   left: 88%;
  
   z-index: 2;
