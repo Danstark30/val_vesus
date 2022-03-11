@@ -246,6 +246,7 @@ visibility: visible;
 #container-info{
  
   background-color: #0F2234;
+  padding: 1rem;
   color: white;
   position: absolute;
   width: 70%;
@@ -384,8 +385,8 @@ visibility: visible;
   }
   
   #imgSeñal{
-    width: 100%;
-    height: 500px;
+    width: 90%;
+    height: 450px;
     margin: 0 1rem 0 0;
     
   }
@@ -399,9 +400,9 @@ visibility: visible;
   
   #info-texto{
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     overflow-y: auto;
-    height: 400px;
+    height: 300px;
   }
 
 
@@ -527,7 +528,7 @@ visibility: visible;
   }
   
   #imgSeñal{
-    width: 70%;
+    width: 500px;
     height: 220px;
     margin: 0 auto;
     
