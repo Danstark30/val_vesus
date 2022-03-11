@@ -795,6 +795,14 @@ function removeDecals() {
 
 }
 
+function onTransitionEnd( event ) {
+
+
+	event.target.remove();
+
+	
+}
+
 function BtnSalirTxt() {
 
 	console.log( 'wdasdasd' );

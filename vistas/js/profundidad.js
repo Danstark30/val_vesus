@@ -263,7 +263,13 @@ function animate() {
 
 }
 
+function onTransitionEnd( event ) {
 
+
+	event.target.remove();
+
+	
+}
 
 
 

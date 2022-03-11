@@ -2221,6 +2221,14 @@ function Limits (){
 window.addEventListener( 'keydown', keyDown );
 window.addEventListener( 'keyup', keyUp );
 
+function onTransitionEnd( event ) {
+
+
+	event.target.remove();
+
+	
+}
+
 
 function BtnSalirTxt( tittext, infoc, infoc2,imgSe ) {
 
