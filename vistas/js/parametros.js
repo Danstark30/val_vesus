@@ -309,7 +309,7 @@ loadingScreen.addEventListener( 'transitionend', onTransitionEnd );
 	// Cube
 
 	var loader = new THREE.TextureLoader();
-    var texture1 = loader.load("assets/modelado/EAbi.PNG");
+    var texture1 = loader.load("assets/modelado/EAbi.png");
     var cubeTexture = loader.load ;
 	const owo = new THREE.BoxBufferGeometry( 6, 6, 6, 10, 10 );
 	const owoMaterial = new THREE.MeshPhongMaterial( { color: 0xABABAB , map: texture1} );
@@ -792,7 +792,7 @@ loadingScreen.addEventListener( 'transitionend', onTransitionEnd );
 
 				var imgSe = document.getElementById("imgSeñal");
 				imgSe.style.visibility = 'visible';
-				imgSe.src="./assets/img/stand_By.PNG";
+				imgSe.src="./assets/img/stand_By.png";
 
 				var infoc = document.createTextNode( 'Con este botón has salido del modo Stand By del equipo. Esto significa que ya puedes ajustar la potencia de cualquiera de los modos de uso de ESU: Monopolar (corte/coagulación) y bipolar. ' );
 				parrafoc.appendChild(infoc);
@@ -862,7 +862,7 @@ loadingScreen.addEventListener( 'transitionend', onTransitionEnd );
                 parrafoc.appendChild( infoc );
 				var imgSe = document.getElementById("imgSeñal");
 				imgSe.style.visibility = 'visible';
-				imgSe.src="./assets/img/monocut.PNG";
+				imgSe.src="./assets/img/monocut.png";
 
              
                 document.getElementById( 'imgS' ).addEventListener( 'click', BtnSalirTxt( tittext, infoc ) );
@@ -890,7 +890,7 @@ loadingScreen.addEventListener( 'transitionend', onTransitionEnd );
                 parrafoc.appendChild( infoc );
 				var imgSe = document.getElementById("imgSeñal");
 				imgSe.style.visibility = 'visible';
-				imgSe.src="./assets/img/monocoag.PNG";
+				imgSe.src="./assets/img/coagu.png";
 
                 document.getElementById( 'imgS' ).addEventListener( 'click', BtnSalirTxt( tittext, infoc ) );
 
@@ -914,7 +914,7 @@ loadingScreen.addEventListener( 'transitionend', onTransitionEnd );
 
 				var imgSe = document.getElementById("imgSeñal");
 				imgSe.style.visibility = 'visible';
-				imgSe.src="./assets/img/bipolar.PNG";
+				imgSe.src="./assets/img/bipolar.png";
 
 				var infoc = document.createTextNode( 'La técnica bipolar se basa en el flujo de electricidad entre dos electrodos en el mismo mango que son equivalentes a lo que sería el electrodo activo y de retorno en el modo monopolar. Por lo tanto, no requiere placa de retorno. Para usar el modo bipolar es necesario conectar el pedal bipolar, pues de esta manera se acciona el electrodo activo, si no se conecta el pedal bipolar, no se generará ningún efecto quirúrgico. En esta forma de electrocirugía, el paciente no hace parte del circuito como en la cirugía monopolar.  Se utiliza principalmente cuando se requiere una hemostasia (detención de hemorragia) precisa para no dañar los tejidos cercanos.' );
 				parrafoc.appendChild(infoc);
@@ -1197,7 +1197,7 @@ loadingScreen.addEventListener( 'transitionend', onTransitionEnd );
 
 				var imgSe = document.getElementById("imgSeñal");
 				imgSe.style.visibility = 'visible';
-				imgSe.src="./assets/img/cortepuro.PNG";
+				imgSe.src="./assets/img/cortepuro.png";
 
 				var infoc = document.createTextNode( 'Para lograr un efecto de corte puro, la punta del electrodo activo debe sostenerse justo sobre el tejido objetivo (este se debe tener a una distancia de 1mm del tejido a cortar). Durante cada oscilación positiva y negativa de la forma de onda mostrada, se forma un nuevo arco de descarga y desaparece en la misma ubicación del tejido. La corriente eléctrica se concentra en esta ubicación del tejido, provocando un aumento repentino de la temperatura debido al calentamiento resistivo. El rápido aumento de temperatura luego vaporiza los fluidos intracelulares, aumenta la presión celular y rompe la membrana celular, separando así el tejido y generando el corte puro.' );
 				parrafoc.appendChild(infoc);
@@ -1231,7 +1231,7 @@ loadingScreen.addEventListener( 'transitionend', onTransitionEnd );
 
 				var imgSe = document.getElementById("imgSeñal");
 				imgSe.style.visibility = 'visible';
-				imgSe.src="./assets/img/corteblend.PNG";
+				imgSe.src="./assets/img/corteblend.png";
 
 				var infoc = document.createTextNode( 'La mayoría de unidades electroquirúrgicas hoy en día ofrecen un modo mixto (blend). El corte combinado permite al cirujano cortar y coagular al mismo tiempo. La  forma de onda que se genera en blend corresponde a una  amortiguada que produce un poco de hemostasia durante el corte. La diferencia entre los 3 modos de blend es su ciclo de trabajo. En este caso, el blend 1 tiene su ciclo de trabajo al 50%. Lo anterior quiere decir que se encuentra en “on” un 50% del ciclo, y el otro 50% se encuentra en off. Con el blend 1 se puede vaporizar tejido con hemostasia mínima, se produce corte y coagulación por partes iguales.' );
 				parrafoc.appendChild(infoc);
@@ -1253,7 +1253,7 @@ loadingScreen.addEventListener( 'transitionend', onTransitionEnd );
 
 				var imgSe = document.getElementById("imgSeñal");
 				imgSe.style.visibility = 'visible';
-				imgSe.src="./assets/img/corteblend2.PNG";
+				imgSe.src="./assets/img/corteblend2.png";
 
 				var infoc = document.createTextNode( 'Tiene un ciclo de trabajo al 40%. Lo anterior quiere decir que está en “on” un 40% del ciclo mientras que el 60% restante está en off. En el blend 2 se produce más coagulación que corte. ' );
 				parrafoc.appendChild(infoc);
@@ -1275,7 +1275,7 @@ loadingScreen.addEventListener( 'transitionend', onTransitionEnd );
 
 				var imgSe = document.getElementById("imgSeñal");
 				imgSe.style.visibility = 'visible';
-				imgSe.src="./assets/img/corteblend2.PNG";
+				imgSe.src="./assets/img/corteblend2.png";
 
 				var infoc = document.createTextNode( 'Tiene ciclo de trabajo al 25%. Lo anterior quiere decir que la señal se encuentra encendida un 25% del ciclo y el 75% restante se encuentra apagada. Al contrario que en el blend 1, el blend 3 no se logra cortar mucho pero si se logra una muy buena hemostasia. ' );
 				parrafoc.appendChild(infoc);
