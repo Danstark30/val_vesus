@@ -289,7 +289,7 @@ visibility: visible;
 }
 
 #imgSeñal{
-  width: 100%;
+  width: 50%;
  
   margin: 0 1rem 0 0;
   
@@ -385,7 +385,7 @@ visibility: visible;
   }
   
   #imgSeñal{
-    width: 90%;
+    width: 50%;
     height: 450px;
     margin: 0 1rem 0 0;
     
@@ -453,7 +453,7 @@ visibility: visible;
   }
   
   #imgSeñal{
-    width: 80%;
+    width: 50%;
     height: 350px;
     margin: 0 1rem 0 0;
     
