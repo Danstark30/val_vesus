@@ -661,7 +661,7 @@ const divinstrucciones = document.getElementById('i-instrucciones');
 					//titulo.textContent = "TITULO DE LA FUNCION";
 					parrafo = document.getElementById( 'info-texto' );
 					parrafo.style.visibility = 'visible';
-					var info = document.createTextNode( 'La conexión del electrodo de retorno se muestra en la animación, este electrodo solo se utiliza en el modo monopolar y se coloca en el paciente. La localización del electrodo de retorno depende del procedimiento a realizar teniendo en cuenta que el área no debe tener prominencias óseas ni vello, debe tener buena musculatura y estar limpia.  El sitio más común de lesión relacionado con el uso de este equipo biomédico es el electrodo de retorno del paciente.  La colocación correcta del electrodo de retorno es esencial para evitar problemas con la circulación de la corriente.' );
+					var info = document.createTextNode( 'La conexión del electrodo de retorno se muestra en la animación, este electrodo solo se utiliza en el modo monopolar y se coloca en el paciente. La localización del electrodo de retorno depende del procedimiento a realizar teniendo en cuenta que el área no debe tener prominencias óseas ni vello, debe tener gran área de contacto y estar limpia.  El sitio más común de lesión relacionado con el uso de este equipo biomédico es el electrodo de retorno del paciente.  La colocación correcta del electrodo de retorno es esencial para evitar problemas con la circulación de la corriente.' );
 					parrafo.appendChild( info );
 
 
