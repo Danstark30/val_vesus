@@ -449,3 +449,5 @@ camera.lookAt(0,2,0);
 	
 
 }
+
+/**codigo inicio js */
