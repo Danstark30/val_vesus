@@ -916,7 +916,7 @@ loadingScreen.addEventListener( 'transitionend', onTransitionEnd );
 				imgSe.style.visibility = 'visible';
 				imgSe.src="./assets/img/bipolar.jpeg";
 
-				var infoc = document.createTextNode( 'La técnica bipolar se basa en el flujo de electricidad entre dos electrodos en el mismo mango que son equivalentes a lo que sería el electrodo activo y de retorno en el modo monopolar. Por lo tanto, no requiere placa de retorno. Para usar el modo bipolar es necesario conectar el pedal bipolar, pues de esta manera se acciona el electrodo activo, si no se conecta el pedal bipolar, no se generará ningún efecto quirúrgico.En esta forma de electrocirugía, el paciente no hace parte del circuito como en la cirugía monopolar. Se utiliza principalmente para cauterizar tejidos. ' );
+				var infoc = document.createTextNode( '' );
 				parrafoc.appendChild(infoc);
 			
 				document.getElementById( 'imgS' ).addEventListener( 'click', BtnSalirTxt( tittext, infoc, imgSe ) );
