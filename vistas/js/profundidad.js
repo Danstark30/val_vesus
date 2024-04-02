@@ -174,7 +174,7 @@ manager.onLoad = function ( ) {
 				//ENTORNO CIRUGIA
 
 				const loaderCortes = new GLTFLoader(manager);
-				loaderCortes.load( './assets/modelado/Piel.glb', function ( gltf ) {
+				loaderCortes.load( './assets/modelado/Piel.gltf', function ( gltf ) {
 
 
 				 gltf.scene.children[ 0 ];
